@@ -1,0 +1,27 @@
+{
+    "name": "floyd/jimenez",
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "vlescot",
+            "email": "vincent.lescot@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.5",
+        "symfony/var-dumper": "^4.4",
+        "illuminate/events": "^5.5",
+        "illuminate/console": "^5.5",
+        "illuminate/routing": "^5.5",
+        "robmorgan/phinx": "^0.11.4",
+        "slim/slim": "^4.4",
+        "doctrine/dbal": "^2.10",
+        "fzaninotto/faker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyWay\\": "./"
+        }
+    }
+}

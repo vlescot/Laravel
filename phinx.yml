@@ -1,0 +1,18 @@
+paths:
+    migrations: '%%PHINX_CONFIG_DIR%%/Migrations/'
+    seeds: '%%PHINX_CONFIG_DIR%%/Migrations/Seeds/'
+migration_base_class: 'MyWay\Migrations\Migration'
+
+environments:
+    default_migration_table: z_migrations_log
+    default_database: development
+    development:
+        adapter: mysql
+        host: localhost
+        name: migration_test
+        user: root
+        pass: ''
+        port: 3306
+        charset: utf8
+
+#version_order: creation
